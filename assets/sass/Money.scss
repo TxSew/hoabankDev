@@ -1,0 +1,29 @@
+.money {
+     width: 100%;
+      margin-top: 15.7rem;
+     &-content {
+         max-width: 50%;
+          & > h3 {
+             font-size: 4.8rem;
+              color : $primary-white;
+               font-weight: 600;
+               line-height: 7.68rem;
+          }
+          & > p {
+             color : $primary-white;
+              opacity: 70%;
+               font-size: 1.8rem;
+                margin-top: 2.4rem;
+                 line-height: 3.6rem;
+          }
+     }
+      .btn_money {
+         margin-top: 4.8rem;
+         .btn  {
+            @include btn;
+             font-weight: 600;
+            
+
+         }
+      }
+    }

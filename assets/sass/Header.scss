@@ -1,0 +1,198 @@
+header {
+     padding-top: 36px;
+     .nav {
+         display: flex;
+          align-items: center;
+           justify-content: space-between;
+         .logo {
+             display: flex;
+              align-items: center;
+              &> img:first-child {
+                 width: 3.2rem;
+                  height: 3.2rem;
+              }
+               & > img:last-child {
+                 width: 8.2rem;
+                  height: 2.3rem;
+                   margin-left: 0.4rem;
+               }
+               
+         }
+          .menu {
+             ul {
+                 display: flex;
+                  & > li::marker {
+                    content: none;
+                }
+                
+                  &> li:not(:first-child) {
+                     margin-left: 5.6rem;
+                  }
+                  &>li> a {
+                    outline: none;
+                     color : $primary_white;
+                      text-decoration: none;
+                       font-size: 1.6rem;
+                        font-weight: 400;
+                        
+                  }
+             }
+          }
+     }
+   .topbar {
+position: relative;      
+    .discount {
+        margin-top: 191px;
+        position: relative;
+        
+         &::after {
+             position: absolute;
+             content: "";
+              width: 19.5rem;
+              height: 32.4rem;
+              background-color: $primary_white;
+              border-radius: 45rem;
+               left: -20rem;
+               
+                top: 0;
+                 filter: blur(25rem);
+         }
+      
+        &-tip {
+             display: flex;
+              align-items: center;
+              background: linear-gradient(125.17deg, #272727 0%, #11101D 100%);
+              width: max-content;
+              padding: 0.6rem 1.4rem;
+              border-radius: 1rem;
+
+            &>img {
+                 width: 2.67rem;
+                 height: 2.67rem;
+                  object-fit: cover;
+            }
+             & > p {
+                 text-transform: uppercase;
+                 font-size: 1.8rem;
+                 color : rgba(255, 255, 255, 0.6);
+                  font-weight: 400;
+                
+                 strong {
+                     color : $primary_white;
+                     
+                  }
+             }
+        }
+        &-content {
+            max-width: 67rem;
+             padding-top: 1.6rem;
+             & > p {
+                 color: $primary_white;
+                 line-height: 10rem;
+                 font-size: 7.2rem;
+                 font-weight: 600;
+                  position: relative;
+                  &::after {
+                     position: absolute;
+                      content: '';
+                       background-image: url(./../img/started.png)
+                  }
+                  & > span {
+                      background: radial-gradient(64.18% 64.18% at 71.16% 35.69%, #DEF9FA 0.89%, #BEF3F5 17.23%, #9DEDF0 42.04%, #7DE7EB 55.12%, #5CE1E6 71.54%, #33BBCF 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+                      -webkit-background-clip: text;
+                      
+                      -webkit-text-fill-color: transparent;
+
+                  }
+             }
+        }
+         &-des {
+             max-width: 48.3rem;
+              margin-top: 4rem;
+             & > p {
+                 color: rgba(255, 255, 255, 0.7);
+                  line-height: 3.6rem;
+                 font-size: 1.8rem;
+             }
+         }
+    }
+    .image_discount {
+        position: absolute;
+        margin-top: 6.5rem;
+        width: 69.9rem;
+        height: 66.4rem;
+        right: -18rem;
+        top: -20rem;
+            &::after {
+                 position: absolute;
+                  content: "";
+                   width: 40.5rem;
+                   height: 47.1rem;
+                   background: rgba(194, 238, 250, 0.6);
+                    top:-2.4rem;
+                     left: 50%;
+                     transform:translateX(-20%);
+                      border-radius:100%;
+                      filter:blur(29rem)
+
+
+            }
+            &::before {
+                 position: absolute;
+                  content: "";
+                   width: 57.8rem;
+                   height: 57.1rem;
+                    top: -4.4rem;
+                     left: 20%;
+                     transform:translateX(-20%);
+                     border-top: 57rem solid rgba(151, 154, 252, 0.3);
+                     border-left: 21rem solid transparent;
+                     border-right: 21rem solid transparent;
+                     filter: blur(9rem)
+
+
+            }
+    }
+   
+   }
+   .topview {
+       @include flexbox;
+        justify-content:space-between;
+     margin-top: 14.3rem;
+      &-trans {
+        @include flexbox;
+      }
+    &-user {
+         position: relative;
+        &::after {
+            position: absolute;
+            content : "";
+            width: 0.2rem;
+            height: 1.3rem;
+            background-color: #ffffff;
+            opacity: 60%;
+            left: calc(100% + 50px);
+             top: 50%;
+              transform: translateY(-50%)
+           
+        }
+         @include flexbox;
+         &-number {
+             color: $primary_white;
+              font-weight: 600;
+              font-size: 4rem;
+         }
+         &-content {
+             font-family: "Archivo Black", sans-serif;
+             background: radial-gradient(64.18% 64.18% at 71.16% 35.69%, #DEF9FA 0.89%, #BEF3F5 17.23%, #9DEDF0 42.04%, #7DE7EB 55.12%, #5CE1E6 71.54%, #33BBCF 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+             -webkit-text-fill-color: transparent;
+             -webkit-background-clip: text;
+             
+             font-size: 2rem;
+              font-weight: 400;
+               margin-left: 2.72rem;
+         }
+    }
+}
+
+}
