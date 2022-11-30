@@ -26,4 +26,43 @@
 
          }
       }
+      //  money box
+       &-box {
+          width: 50%;
+          margin-left: 9rem;
+        margin-top: -3.6rem;
+         display: flex;
+          flex-direction: column;
+          .money-items {
+          margin-top: 3.4rem;
+          padding: 20px   15px 20px 18px;
+           &:nth-child(2) {
+             border-radius: 2rem;
+            background: linear-gradient(153.47deg, rgba(255, 255, 255, 0) -341.94%, #14101D 95.11%);
+             padding: 20px   28px 20px 18px;
+
+           }
+               @include flexbox;
+             & > img {
+                width: 6.4rem;
+                height: 6.4rem;
+                object-fit: cover;
+             }
+              &-title {
+                margin-left: 2rem;
+                & > h4 {
+                   font-size: 1.8rem;
+                   font-weight: 600;
+                    color: $primary-white;
+                }
+                 & > p {
+                   color : $primary_white;
+                    opacity: 70%;
+                     font-size: 1.6rem;
+                     margin-top: 0.8rem;
+                     line-height: 2.4rem;
+                 }
+              }
+          }
+       }
     }

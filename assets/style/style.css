@@ -52,6 +52,10 @@ body, html {
   font-family: "Poppins", sans-serif;
 }
 
+.row {
+  display: flex;
+}
+
 header {
   padding-top: 36px;
 }
@@ -265,6 +269,106 @@ header .topview-user-content {
   border-radius: 1rem;
   background: linear-gradient(157.81deg, #DEF9FA -43.27%, #BEF3F5 -21.24%, #9DEDF0 12.19%, #7DE7EB 29.82%, #5CE1E6 51.94%, #33BBCF 90.29%);
   font-weight: 600;
+}
+.money-box {
+  width: 50%;
+  margin-left: 9rem;
+  margin-top: -3.6rem;
+  display: flex;
+  flex-direction: column;
+}
+.money-box .money-items {
+  margin-top: 3.4rem;
+  padding: 20px 15px 20px 18px;
+  display: flex;
+  align-items: center;
+}
+.money-box .money-items:nth-child(2) {
+  border-radius: 2rem;
+  background: linear-gradient(153.47deg, rgba(255, 255, 255, 0) -341.94%, #14101D 95.11%);
+  padding: 20px 28px 20px 18px;
+}
+.money-box .money-items > img {
+  width: 6.4rem;
+  height: 6.4rem;
+  object-fit: cover;
+}
+.money-box .money-items-title {
+  margin-left: 2rem;
+}
+.money-box .money-items-title > h4 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #fff;
+}
+.money-box .money-items-title > p {
+  color: #fff;
+  opacity: 70%;
+  font-size: 1.6rem;
+  margin-top: 0.8rem;
+  line-height: 2.4rem;
+}
+
+section.paypal {
+  position: relative;
+  padding-top: 13.5rem;
+}
+section.paypal::after {
+  position: absolute;
+  content: "";
+  width: 40.5rem;
+  height: 47.1rem;
+  background-color: #fff;
+  left: -37rem;
+  top: -10rem;
+  border-radius: 50%;
+  opacity: 60%;
+  filter: blur(23rem);
+}
+section.paypal::before {
+  position: absolute;
+  content: "";
+  width: 34.5rem;
+  height: 51.4rem;
+  background: linear-gradient(90deg, #F4C4F3 0%, #FC67FA 100%);
+  left: -37rem;
+  top: 35rem;
+  opacity: 60%;
+  filter: blur(33rem);
+}
+section.paypal .row {
+  justify-content: space-between;
+  align-items: center;
+}
+section.paypal .paypal_img {
+  width: 52rem;
+  height: 45.5rem;
+}
+section.paypal .paypal_title {
+  width: 50%;
+  padding-left: 12rem;
+}
+section.paypal .paypal_title > h3 {
+  font-size: 4.8rem;
+  line-height: 7.6rem;
+  font-weight: 600;
+  color: #fff;
+}
+section.paypal .paypal_title > p {
+  margin-top: 2.4rem;
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+  color: #fff;
+  opacity: 70%;
+}
+section.paypal .paypal_title .paypal_down {
+  display: flex;
+  margin-top: 4.8rem;
+  gap: 3.2rem;
+}
+section.paypal .paypal_title .paypal_down > img {
+  width: 12.8rem;
+  height: 4.2rem;
 }
 
 /*# sourceMappingURL=style.css.map */
