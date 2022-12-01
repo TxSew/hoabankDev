@@ -100,9 +100,8 @@ position: relative;
                   & > span {
                       background: radial-gradient(64.18% 64.18% at 71.16% 35.69%, #DEF9FA 0.89%, #BEF3F5 17.23%, #9DEDF0 42.04%, #7DE7EB 55.12%, #5CE1E6 71.54%, #33BBCF 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
                       -webkit-background-clip: text;
-                      
                       -webkit-text-fill-color: transparent;
-
+                    
                   }
              }
         }
@@ -121,7 +120,7 @@ position: relative;
         margin-top: 6.5rem;
         width: 69.9rem;
         height: 66.4rem;
-        right: -18rem;
+        right: -15rem;
         top: -20rem;
             &::after {
                  position: absolute;

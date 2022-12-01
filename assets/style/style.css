@@ -168,7 +168,7 @@ header .topbar .image_discount {
   margin-top: 6.5rem;
   width: 69.9rem;
   height: 66.4rem;
-  right: -18rem;
+  right: -15rem;
   top: -20rem;
 }
 header .topbar .image_discount::after {
@@ -308,6 +308,14 @@ header .topview-user-content {
   margin-top: 0.8rem;
   line-height: 2.4rem;
 }
+.money-box .money_deal {
+  width: 51.3rem;
+  height: 44.9rem;
+}
+
+.deal {
+  margin-top: 13.7rem;
+}
 
 section.paypal {
   position: relative;
@@ -331,6 +339,7 @@ section.paypal::before {
   width: 34.5rem;
   height: 51.4rem;
   background: linear-gradient(90deg, #F4C4F3 0%, #FC67FA 100%);
+  transform: rotate(-150deg);
   left: -37rem;
   top: 35rem;
   opacity: 60%;
@@ -369,6 +378,34 @@ section.paypal .paypal_title .paypal_down {
 section.paypal .paypal_title .paypal_down > img {
   width: 12.8rem;
   height: 4.2rem;
+}
+
+section.about {
+  padding-top: 13rem;
+}
+section.about .about_content {
+  display: flex;
+  align-items: center;
+}
+section.about .about-heading {
+  max-width: 47rem;
+}
+section.about .about-heading > h4 {
+  color: #fff;
+  font-size: 4.8rem;
+  font-weight: 600;
+  line-height: 8.16rem;
+}
+section.about .about-des {
+  max-width: 45rem;
+  margin-left: 12.9rem;
+}
+section.about .about-des > p {
+  line-height: 3.24rem;
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: #fff;
+  opacity: 70%;
 }
 
 /*# sourceMappingURL=style.css.map */

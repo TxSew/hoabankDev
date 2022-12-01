@@ -1,0 +1,27 @@
+section.about {
+     padding-top: 13rem;
+    .about_content {
+         display: flex;
+        align-items: center;
+    }
+     .about-heading {
+         max-width:47rem;
+         & > h4 {
+             color : $primary_white;
+             font-size: 4.8rem;
+             font-weight: 600;
+             line-height: 8.16rem;
+         }
+     }
+      .about-des {
+        max-width:45rem;
+         margin-left: 12.9rem;
+         & > p {
+             line-height: 3.24rem;
+             font-size: 1.8rem;
+              font-weight: 400;
+              color: $primary_white;
+               opacity: 70%;
+         }
+      }
+}
