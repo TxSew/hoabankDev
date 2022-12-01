@@ -407,5 +407,67 @@ section.about .about-des > p {
   color: #fff;
   opacity: 70%;
 }
+section.about .about_thumbnail {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8rem;
+  position: relative;
+}
+section.about .about_thumbnail::after {
+  position: absolute;
+  content: "";
+  width: 15rem;
+  height: 40rem;
+  background: linear-gradient(90deg, #1A2980 0%, #26D0CE 100%);
+  right: -10em;
+  top: 1%;
+  filter: blur(12rem);
+}
+section.about .about_thumbnail-items {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  background: linear-gradient(144.39deg, #FFFFFF -278.56%, #6D6D6D -78.47%, #11101D 91.61%);
+  border-radius: 2rem;
+  padding: 6rem 4rem;
+}
+section.about .about_thumbnail-items:nth-child(2), section.about .about_thumbnail-items:last-child {
+  background: transparent;
+}
+section.about .about_thumbnail-items > img {
+  width: 4.26rem;
+  height: 2.76rem;
+}
+section.about .about_thumbnail-items > p {
+  padding-top: 4rem;
+  color: #fff;
+  font-size: 1.8rem;
+  margin-bottom: 2.9rem;
+}
+section.about .about_thumbnail-items .thumbnail_profile {
+  display: flex;
+  flex-shrink: 1;
+  margin-top: auto;
+}
+section.about .about_thumbnail-items .thumail_avatar {
+  width: 4.8rem;
+  height: 4.8rem;
+}
+section.about .about_thumbnail-items .thumbnail_name {
+  margin-left: 1.6rem;
+  align-items: center;
+}
+section.about .about_thumbnail-items .thumbnail_name > h5 {
+  font-weight: 400;
+  font-size: 2rem;
+  color: #fff;
+  line-height: 3.2rem;
+}
+section.about .about_thumbnail-items .thumbnail_name > p {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #fff;
+  opacity: 60%;
+}
 
 /*# sourceMappingURL=style.css.map */
