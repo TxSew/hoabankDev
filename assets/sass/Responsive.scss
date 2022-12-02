@@ -1,0 +1,141 @@
+@media (max-width:1367px) {
+    .container {
+        max-width:987px
+    }
+    header .topbar .image_discount {
+        position: absolute;
+        margin-top: 6.5rem;
+        width: 57.9rem;
+        height: 54.4rem;
+        right: -2rem;
+        top: -20rem;
+    }
+    section.about .about_thumbnail::after {
+         right: 4em;
+    }
+    section.about .about_thumbnail::after {
+         margin-left: -3rem;
+    }
+    section.paypal .paypal_title {
+         padding-left: 4rem;
+    }
+    .money-box {
+         margin-left: 1rem;
+    }
+    header .topbar .image_discount::after {
+         left: 45%;
+    }
+    .money-box .money_deal {
+        width: 50.1rem;
+    }
+    
+    section.about .about_thumbnail-items{
+        padding: 4rem 2rem;
+    }
+    .service_now {
+        padding-top: 6rem;
+    padding-bottom: 5rem;
+    padding-left: 6.2rem;
+    padding-right: 6rem;
+    }
+    header .topbar .discount-content .started {
+        position: absolute;
+        width: 11rem;
+        height: 19rem;
+        right: 6rem;
+        top: 1rem;
+    }
+    header .topbar .discount-content {
+         max-width: 48rem;
+    }
+    header .topbar .discount-content > p {
+         font-size: 5.2rem;
+    }
+   
+}
+@media (max-width: 1023px) {
+ .menu {
+     display: none;
+ }
+ header .topbar .discount {
+     margin-top: 720px;
+ }
+ header .topbar .image_discount {
+top: -78rem;
+width: 70.9rem;
+ }
+ header .topbar .discount-content {
+    max-width: 74rem;
+}
+header .topview {
+     display: block;
+      justify-content:center;
+       margin-top: 8.3rem;
+}
+header .topview-user {
+     text-align: center;
+}
+.money {
+     margin-top: 16.3rem;
+}
+.money-content , .money-box {
+     margin-top: 6rem;
+     max-width:100%;
+      text-align: center;
+      width: 100%;
+}
+section.about .about_thumbnail {
+     display: block;
+}
+section.about .about_thumbnail-items {
+     width: 100%;
+}
+section.about .about_content {
+     display: block;
+     text-align: center;
+}
+section.about .about-heading {
+    max-width: 72rem;
+}
+section.about .about-des {
+    max-width: 53rem;
+    margin: 0 auto;
+}
+.money-box .money_deal {
+    width: 49.1rem;
+     margin: 0 auto;
+}
+section.about {
+    padding-top: 20rem;
+}
+section.about .about_thumbnail::after {
+    right: 52em;
+    filter: blur(20rem);
+}
+section.paypal .paypal_img {
+    width: 52rem;
+    height: 45.5rem;
+    margin: 0 auto;
+}
+section.paypal .paypal_title {
+    padding-top: 50px;
+    text-align: center;
+    width: 100%;
+}
+section.paypal .paypal_title .paypal_down {
+     justify-content:center;
+}
+section.paypal .paypal_title {
+     padding-left: 0;
+}
+section.paypal .paypal_title > h3 , .money-content > h3 , section.about .about-heading > h4 , header .topbar .discount-content > p {
+     font-size: 3.8rem;
+}
+ .row {
+     display: block;
+ }
+ header .topbar .discount-des {
+    max-width: 72.3rem;
+    margin-top: 2rem;
+}
+}
